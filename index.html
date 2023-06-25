@@ -8,6 +8,24 @@
 
     <link rel="stylesheet" href="css/slide.css">
     <link rel="stylesheet" href="css/td1.css">
+
+    <script>
+        //모바일기기이름을 담은 배열
+        var mobile_keys = new Array('iPhone','iPad','Android','BlackBerry','Windows Phone',
+        'Windows CE','LG','MOT','SAMSUNG','SonyEricsson','Nokia');
+
+        for(var i in mobile_keys){
+            //브라우저의 에이전트 정보에 모바일이름과 매치되는 글자가 있다면
+            if(navigator.userAgent.match(mobile_keys[i])){ 
+                location.assign('https://sangsamg.github.io/korea09m/');
+            }
+            else{
+                location.assign('http://www.korea09.co.kr/main/index.html')
+            }
+        }
+    </script>
+
+
 </head>
 
 <style>
