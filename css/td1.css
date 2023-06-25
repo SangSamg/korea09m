@@ -1,0 +1,54 @@
+@charset "utf-8";
+thead td h1{
+    font-size: 1.2rem;
+}
+
+thead td h4{
+    font-size: 0.5rem;
+}
+
+thead td p{
+    font-size: 0.5rem;
+}
+
+tr td h1{
+    font-size: 1.2rem;
+}
+
+tr td p{
+    font-size: 0.1rem;
+}
+
+tfoot td h3{
+    font-size: 1.2rem;
+}
+
+tfoot h4{
+    font-size: 1rem;
+}
+
+tfoot h5{
+    font-size: 0.1rem;
+}
+tfoot span{
+    font-size: 0.01rem;
+}
+
+tfoot p{
+    font-size: 0.1rem;
+}
+
+footer div{
+    font-size: 0.1rem;
+}
+
+
+
+
+@media (min-width : 359px){
+    html body{font-size: 25px;
+    }
+}
+@media (min-width : 389px){
+    html body{font-size: 30px;}
+}
